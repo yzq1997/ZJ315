@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企业展示</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <style>
+        .tap {
+            display: none;
+        }
+
+        .active {
+            color: #3E569C;
+            background: url(../image/top.png) no-repeat 50% 100%;
+            background-size: 0.16rem;
+            font-weight: bold;
+            /* border-bottom: 2px solid #3E569C; */
+        }
+        .nn1{
+            position: fixed;
+            /* top: 90%; */
+            bottom: 5%;
+            left: 40%;
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- main -->
+    <div class="main">
+        <!-- tab选项卡 -->
+        <div style="overflow:auto;">
+            <div class="tabBox" style="width:110%;overflow:hidden;">
+                <span id="div1" class="active" index="0" onclick="fxxf()">放心消费创建单位</span>
+                <span index="1" onclick="xxwly()">线下无理由退货承诺单位</span>
+                <span index="2" onclick="qyfc()">企业风采</span>
+            </div>
+        </div>
+
+        <!-- 选项卡分页 -->
+        <div style="display:block" class="tap mtab1">
+            <ul class="ul">
+                
+            </ul>
+            <div class="nodata nodata1" style="display: none;">
+                <img src="../image/nodata.png" alt="">
+                <p>暂无数据</p>
+            </div>
+            <p class="yes y1">正在加载中...</p>
+            <p class="no n1">没有更多了哦...</p>
+        </div>
+
+        <div class="tap mtab1">
+            <ul class="ul1">
+                
+            </ul>
+            <div class="nodata nodata2" style="display: none;">
+                <img src="../image/nodata.png" alt="">
+                <p>暂无数据</p>
+            </div>
+            <p class="yes y2">正在加载中...</p>
+            <p class="no n2">没有更多了哦...</p>
+        </div>
+
+        <div class="tap mtab1 expert">
+            <ul class="ul2">
+                
+            </ul>
+            <div class="nodata nodata3" style="display: none;">
+                <img src="../image/nodata.png" alt="">
+                <p>暂无数据</p>
+            </div>
+            <p class="yes y3">正在加载中...</p>
+            <p class="no n3">没有更多了哦...</p>
+        </div>
+    </div>
+
+    <div class="fix"></div>
+</body>
+<script src="../js/jquery-1.9.1.min.js"></script>
+
+<script src="../js/index.js"></script>
+
+
+</html>

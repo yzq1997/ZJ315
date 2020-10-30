@@ -1,0 +1,84 @@
+html{
+    font-size: 100px;
+}
+body{
+    margin: 0;
+}
+
+.box{
+    /* background: pink; */
+    overflow: hidden;
+}
+
+.p1{
+    font-size: 0.15rem;
+    line-height: 0.44rem;
+    border-bottom: 1px solid #E6E6e6;
+    height: 0.44rem;
+    text-align: center;
+    margin: 0;
+    /* margin-top: 0.1rem; */
+    background: url(../image/iconGoleft.png) no-repeat 0.1rem;
+    background-size:0.2rem 0.2rem;
+}
+img{
+    width: 100%;
+}
+.p2{
+    margin-top: 0.2rem;
+    font-size: 0.18rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    color: #333333;
+    font-weight: bold;
+    /* font-weight: 600; */
+}
+
+.p3{
+    font-size: 0.14rem;
+    padding-left: 0.15rem;
+    margin-bottom: 0;
+    color: #353535;
+}
+
+.p4{
+    font-size: 0.12rem;
+    margin: 0;
+    padding-left: 0.15rem;
+    color: #999999
+}
+
+.main{
+    margin-top: 0.33rem;
+    padding: 0 0.15rem;
+    font-size: 0.16rem;
+    overflow: hidden;
+}
+
+.p5{
+    font-size: 0.12rem;
+    color: #666666;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.p2{
+    word-break: break-all;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

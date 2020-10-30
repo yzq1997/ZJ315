@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>建设页面</title>
+    <style>
+        html{
+            height: 100%;
+            font-size: 100px;
+        }
+        body{
+            margin: 0;
+            height: 100%;
+        }
+        .box{
+            height: 100%;
+            background: #FAFAFA;
+            /* background: pink; */
+        }
+        .img{
+            width: 100%;
+            /* height: 4rem; */
+            text-align: center;
+        }
+        img{
+            margin-top: 1rem;
+            width: 70%;
+        }
+        p{
+            font-size: 0.17rem;
+            margin: 0;
+            margin-top: 0.28rem;
+            text-align: center;
+            /* padding-left: 0.28rem; */
+            font-family: _GB2312 KaiTi_GB2312;
+        }
+        .btnbox{
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+        }
+        .btn{
+            background: #3E569C;
+            /* padding-left: 0.28rem; */
+            width: 1.75rem;
+            height: 0.44rem;
+            line-height: 0.44rem;
+            border: none;
+            text-align: center;
+            border-radius: 1rem;
+            font-size: 0.17rem;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="img">
+            <img src="../image/defualt.png" alt="">
+        </div>
+        <p>模块还在建设中~</p>
+        <div class="btnbox">
+            <p class="btn" onclick="goback()">返回</p>
+        </div>
+        
+    </div>
+</body>
+
+<script>
+    function goback(){
+        // console.log(444);
+        // window.location.go(-1)
+        window.history.go(-1); //返回上一页
+    }
+</script>
+</html>

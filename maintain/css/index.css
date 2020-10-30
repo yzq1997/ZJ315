@@ -1,0 +1,236 @@
+html{
+    font-size: 100px;
+    /* height: 100%; */
+    background: #FAFAFA;
+}
+body{
+    margin: 0;
+    /* height: 100%; */
+}
+
+.banner{
+    /* width: 5rem; */
+    height: 2rem;
+    background: url(../image/banner.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    margin-top: -0.4rem;
+    border-radius: 0.3rem;
+}
+.tap{
+    height: 100%;
+    background: #FAFAFA;
+    /* position: relative; */
+}
+.tabBox{
+    /* background: red; */
+    width: 90%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E6E6E6;
+}
+.tabBox>span{
+    padding: 0.1rem 0;
+    font-size: 0.16rem;
+    /* padding-bottom: 0.05rem; */
+}
+
+.mtab1>ul{
+    padding: 0;
+    margin: 0;
+}
+.mtab1>ul>li{
+    /* padding: 0.1rem 0; */
+    /* height: 1rem; */
+    /* padding: 0.1rem 0; */
+    width: 90%;
+    padding: 0.2rem 0.15rem;
+    list-style: none;
+    background: #fff;
+    font-size: 0.16rem;
+    /* border-bottom: 1px solid#E6E6E6; */
+    padding-bottom: 0;
+    
+}
+.mtab1>ul>li>div>p:nth-of-type(1){
+    font-size: 0.16rem;
+    /* font-weight: bold; */
+    margin: 0;
+}
+.mtab1>ul>li>div>p:nth-of-type(2){
+    font-size: 0.13rem;
+    color: #999999;
+    margin-bottom: 0;
+}
+.tap{
+    height: 100%;
+}
+
+.imgT{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+.imgT>div{
+    width: 70%;
+}
+.imgT>div>p:nth-of-type(1){
+    font-size: 0.16rem;
+    /* font-weight: bold; */
+    color: #333333;
+    margin: 0;
+    /* margin-top: 0; */
+}
+.imgT>div>p:nth-of-type(2){
+    font-size: 0.13rem;
+    color: #999999;
+    /* margin-bottom: 0; */
+}
+.imgT>.imagess{
+    width: 1rem;
+    height: 0.78rem;
+}
+.backImg{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    border-radius: 0.02rem;
+}
+.sbox{
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 0.2rem;
+}
+.sbox>p:nth-of-type(1){
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.sbox1>p:nth-of-type(1){
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.sbox2>p:nth-of-type(1){
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+/* 专家团队 */
+.expert>ul>li{
+    list-style: none;
+    margin-top: 0.3rem;
+    background: #fff;
+    /* width: 90%; */
+    margin: 0.15rem 0.15rem;
+    overflow: hidden;
+    /* padding: 0 5%; */
+    border: 1px solid #E6E6E6;
+    border-radius: 0.02rem;
+}
+.expert{
+    background: #FAFAFA;
+}
+.expert>ul{
+    overflow: hidden;
+    font-size: 0.16rem;
+    margin: 0;
+    padding: 0;
+}
+.zhuan{
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+    margin-bottom: 0.1rem;
+    display: flex;
+    /* border-radius: 0.02rem; */
+}
+.zhuan>img{
+    width: 0.56rem;
+    height: 0.67rem;
+}
+.zhuan>div{
+    margin-left: 0.1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.zhuan>div>p:nth-of-type(1){
+    width: 100%;
+    font-size: 0.16rem;
+    color: #353535;
+    /* font-weight: bold; */
+    margin: 0;
+    margin-top: 0.1rem;
+}
+.zhuan>div>p:nth-of-type(2){
+    border: 1px solid #3E569C;
+    /* text-align: center; */
+    color: #3E569C;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    font-size: 0.13rem;
+    line-height: 0.2rem;
+    margin: 0;
+    display: flex;
+    margin-top: 0.1rem;
+}
+h7{
+    font-size: 0.12rem;
+    color: #666666;
+}
+.expert>ul>li>p{
+    font-size: 0.14rem;
+    padding: 0 2%;
+}
+.no{
+    font-size: 0.12rem;
+    margin: 0;
+    color: #999999;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+
+.yes{
+    font-size: 0.16rem;
+    text-align: center;
+    display: none;
+}
+
+.nodata{
+    /* margin: 0 auto; */
+    flex-direction: column;
+    justify-content: center;
+}
+.nodata>img{
+    width: 2.125rem;
+    height: 1.58rem;
+    margin: 1rem auto;
+    align-items: center;
+}
+.nodata>p{
+    font-size: 0.16rem;
+    text-align: center;
+}
+
+
+
+
